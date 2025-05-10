@@ -1,8 +1,44 @@
 # Changelog
 
-## 22.7.3 (2025-04-21)
+## 24.0.1 (2025-05-08)
 
-* [bitnami/airflow] Release 22.7.3 ([#33087](https://github.com/bitnami/charts/pull/33087))
+* [bitnami/airflow] :zap: :arrow_up: Update dependency references ([#33572](https://github.com/bitnami/charts/pull/33572))
+
+## 24.0.0 (2025-05-07)
+
+* [bitnami/airflow] feat!: :arrow_up: :boom: Bump Redis(R) to 8.0 (#33518) ([fb8524a](https://github.com/bitnami/charts/commit/fb8524ac91a57c98a817a73ba7cf518064801df8)), closes [#33518](https://github.com/bitnami/charts/issues/33518)
+
+## <small>23.1.1 (2025-05-07)</small>
+
+* [bitnami/airflow] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references (#33333 ([c74d5b3](https://github.com/bitnami/charts/commit/c74d5b3ea31edbde920c94b16648b88b6ee15dd7)), closes [#33333](https://github.com/bitnami/charts/issues/33333)
+
+## 23.1.0 (2025-05-06)
+
+* [bitnami/airflow] Expose topologyKey for all objects (#33461) ([b320070](https://github.com/bitnami/charts/commit/b320070f3688a4ef2ffbb623b181ebbc72bf9bf8)), closes [#33461](https://github.com/bitnami/charts/issues/33461)
+
+## <small>23.0.4 (2025-05-06)</small>
+
+* [bitnami/airflow] Fix baseUrl generation with ingress enabled (#33399) ([461bc9f](https://github.com/bitnami/charts/commit/461bc9face35a3b6339f012c60cf4622c3d18ac6)), closes [#33399](https://github.com/bitnami/charts/issues/33399)
+
+## <small>23.0.3 (2025-05-05)</small>
+
+* [bitnami/airflow] Fix svc name for Ingress backend (#33316) ([d814a50](https://github.com/bitnami/charts/commit/d814a50bfb2756a817cbd4f66abbba71d1b74b63)), closes [#33316](https://github.com/bitnami/charts/issues/33316)
+
+## <small>23.0.2 (2025-05-01)</small>
+
+* [bitnami/airflow] Minor performance improvements (#33276) ([be6729e](https://github.com/bitnami/charts/commit/be6729e5675d0bd77ab21211dad18b6ab6b7efea)), closes [#33276](https://github.com/bitnami/charts/issues/33276)
+
+## <small>23.0.1 (2025-04-29)</small>
+
+* [bitnami/airflow] Release 23.0.1 (#33254) ([704baf2](https://github.com/bitnami/charts/commit/704baf2653410238a5a1365afc39aa374b375ad1)), closes [#33254](https://github.com/bitnami/charts/issues/33254)
+
+## 23.0.0 (2025-04-29)
+
+* [bitnami/airflow] Release 23.0.0 (#33141) ([2932247](https://github.com/bitnami/charts/commit/29322473955e7aba4b46118390e8e50db219e95e)), closes [#33141](https://github.com/bitnami/charts/issues/33141)
+
+## <small>22.7.3 (2025-04-21)</small>
+
+* [bitnami/airflow] Release 22.7.3 (#33087) ([c62ad9b](https://github.com/bitnami/charts/commit/c62ad9b97dad33d09d2888d21066d9d25cafeed5)), closes [#33087](https://github.com/bitnami/charts/issues/33087)
 
 ## <small>22.7.2 (2025-03-25)</small>
 

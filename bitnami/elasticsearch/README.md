@@ -20,8 +20,6 @@ Looking to use Elasticsearch in production? Try [VMware Tanzu Application Catalo
 
 This chart bootstraps a [Elasticsearch](https://github.com/bitnami/containers/tree/main/bitnami/elasticsearch) deployment on a [Kubernetes](https://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
 
-Bitnami charts can be used with [Kubeapps](https://kubeapps.dev/) for deployment and management of Helm Charts in clusters.
-
 ## Prerequisites
 
 - Kubernetes 1.23+
@@ -995,6 +993,10 @@ helm install my-release -f values.yaml oci://REGISTRY_NAME/REPOSITORY_NAME/elast
 Find more information about how to deal with common errors related to Bitnami's Helm charts in [this troubleshooting guide](https://docs.bitnami.com/general/how-to/troubleshoot-helm-chart-issues).
 
 ## Upgrading
+
+### To 22.0.0
+
+This major version updates the Elasticsearch image and Kibana subchart from version 8.x to 9.x. Follow the [official instructions](https://www.elastic.co/docs/deploy-manage/upgrade/deployment-or-cluster) to upgrade to 9.x.
 
 ### To 21.4.0
 
