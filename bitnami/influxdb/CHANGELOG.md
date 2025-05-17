@@ -1,8 +1,25 @@
 # Changelog
 
-## 6.6.9 (2025-04-23)
+## 6.6.13 (2025-05-15)
 
-*  [bitnami/influxdb] Fix backup functionality, closes bitnami#33110 ([#33111](https://github.com/bitnami/charts/pull/33111))
+* [bitnami/influxdb] :zap: :arrow_up: Update dependency references ([#33737](https://github.com/bitnami/charts/pull/33737))
+
+## <small>6.6.12 (2025-05-13)</small>
+
+* [bitnami/influxdb] :zap: :arrow_up: Update dependency references (#33654) ([61b330a](https://github.com/bitnami/charts/commit/61b330aa4f93c52321e12c690153688c101213a9)), closes [#33654](https://github.com/bitnami/charts/issues/33654)
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+
+## <small>6.6.11 (2025-05-07)</small>
+
+* [bitnami/influxdb] Release 6.6.11 (#33529) ([40152ae](https://github.com/bitnami/charts/commit/40152ae66be8dddb6b7123ceb5d1294c0fba8d7a)), closes [#33529](https://github.com/bitnami/charts/issues/33529)
+
+## <small>6.6.10 (2025-05-06)</small>
+
+* [bitnami/influxdb] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references (#3337 ([695f099](https://github.com/bitnami/charts/commit/695f09932a34a2e6fe754ea34d7052d45483355b)), closes [#33374](https://github.com/bitnami/charts/issues/33374)
+
+## <small>6.6.9 (2025-04-28)</small>
+
+*  [bitnami/influxdb] Fix backup functionality, closes bitnami#33110 (#33111) ([2f8efe4](https://github.com/bitnami/charts/commit/2f8efe49372ea6c45c197154d093f49bcfb3d625)), closes [bitnami#33110](https://github.com/bitnami/issues/33110) [#33111](https://github.com/bitnami/charts/issues/33111) [bitnami#33110](https://github.com/bitnami/issues/33110)
 
 ## <small>6.6.8 (2025-04-22)</small>
 

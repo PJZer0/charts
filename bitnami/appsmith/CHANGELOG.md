@@ -1,8 +1,28 @@
 # Changelog
 
-## 5.2.9 (2025-04-24)
+## 6.0.2 (2025-05-15)
 
-* [bitnami/appsmith] Release 5.2.9 ([#33166](https://github.com/bitnami/charts/pull/33166))
+* [bitnami/appsmith] :zap: :arrow_up: Update dependency references ([#33723](https://github.com/bitnami/charts/pull/33723))
+
+## <small>6.0.1 (2025-05-08)</small>
+
+* [bitnami/appsmith] Release 5.2.12 (#33504) ([7206142](https://github.com/bitnami/charts/commit/7206142871caa01816cbbfb73f644f957d86121b)), closes [#33504](https://github.com/bitnami/charts/issues/33504)
+
+## 6.0.0 (2025-05-07)
+
+* [bitnami/appsmith] feat!: :arrow_up: :boom: Bump Redis(R) to 8.0 (#33497) ([6bf0667](https://github.com/bitnami/charts/commit/6bf0667369e158065bda2c10af5b2fc53709371e)), closes [#33497](https://github.com/bitnami/charts/issues/33497)
+
+## <small>5.2.11 (2025-05-06)</small>
+
+* [bitnami/appsmith] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references (#3333 ([261a251](https://github.com/bitnami/charts/commit/261a2519c584fb942b26ab2dbf5fd230607a9483)), closes [#33336](https://github.com/bitnami/charts/issues/33336)
+
+## <small>5.2.10 (2025-04-30)</small>
+
+* [bitnami/appsmith] Release 5.2.10 (#33257) ([44d74a1](https://github.com/bitnami/charts/commit/44d74a1ff9979f9112cb4663f092d31b445ea5b8)), closes [#33257](https://github.com/bitnami/charts/issues/33257)
+
+## <small>5.2.9 (2025-04-24)</small>
+
+* [bitnami/appsmith] Release 5.2.9 (#33166) ([6b6a21d](https://github.com/bitnami/charts/commit/6b6a21d876fec93ecd0ac33eb2d3d3a1e2f20207)), closes [#33166](https://github.com/bitnami/charts/issues/33166)
 
 ## <small>5.2.8 (2025-04-16)</small>
 

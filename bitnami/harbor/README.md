@@ -28,8 +28,6 @@ For example, the following changes have been introduced:
 - Uses Bitnami non-root container images by default.
 - This chart supports the Harbor optional components.
 
-Bitnami charts can be used with [Kubeapps](https://kubeapps.dev/) for deployment and management of Helm Charts in clusters.
-
 ## Prerequisites
 
 - Kubernetes 1.23+
@@ -1217,9 +1215,6 @@ You can enable this initContainer by setting `volumePermissions.enabled` to `tru
 | `postgresql.primary.extendedConfiguration`   | Extended PostgreSQL Primary configuration (appended to main or default configuration)                                                                                                                                      | `max_connections = 1024
 `      |
 | `postgresql.primary.initdb.scripts`          | Initdb scripts to create Harbor databases                                                                                                                                                                                  | `{}`                           |
-| `postgresql.image.registry`                  | PostgreSQL image registry                                                                                                                                                                                                  | `REGISTRY_NAME`                |
-| `postgresql.image.repository`                | PostgreSQL image repository                                                                                                                                                                                                | `REPOSITORY_NAME/postgresql`   |
-| `postgresql.image.digest`                    | PostgreSQL image digest in the way sha256:aa.... Please note this parameter, if set, will override the tag                                                                                                                 | `""`                           |
 | `postgresql.primary.resourcesPreset`         | Set container resources according to one common preset (allowed values: none, nano, small, medium, large, xlarge, 2xlarge). This is ignored if primary.resources is set (primary.resources is recommended for production). | `nano`                         |
 | `postgresql.primary.resources`               | Set container requests and limits for different resources like CPU or memory (essential for production workloads)                                                                                                          | `{}`                           |
 | `externalDatabase.host`                      | Database host                                                                                                                                                                                                              | `localhost`                    |
@@ -1311,9 +1306,21 @@ Find more information about how to deal with common errors related to Bitnami's 
 
 ## Upgrading
 
+### To 26.0.0
+
+This major updates the Redis&reg; subchart to its newest major, 21.0.0, which updates Redis&reg; from 7.4 to 8.0. [Here](https://redis.io/docs/latest/operate/oss_and_stack/install/upgrade/cluster/) you can find more information about the changes introduced in that version. No major issues are expected during the upgrade.
+
+### To 25.0.0
+
+This version uses the PostgreSQL version provided by the bitnami/postgresql subchart, PostgreSQL 17.x, instead of overriding it with version 14.x.
+
 ### To 24.1.0
 
 This version introduces image verification for security purposes. To disable it, set `global.security.allowInsecureImages` to `true`. More details at [GitHub issue](https://github.com/bitnami/charts/issues/30850).
+
+### To 24.0.1
+
+This version updates the PostgreSQL version to 14.x. Follow the [official instructions](https://www.postgresql.org/docs/14/upgrading.html) to upgrade to 14.x.
 
 ### To 24.0.0
 
