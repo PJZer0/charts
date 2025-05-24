@@ -1,8 +1,33 @@
 # Changelog
 
-## 4.8.4 (2025-04-28)
+## 4.8.10 (2025-05-22)
 
-* [bitnami/grafana-loki] Release 4.8.4 ([#33208](https://github.com/bitnami/charts/pull/33208))
+* [bitnami/grafana-loki] :zap: :arrow_up: Update dependency references ([#33850](https://github.com/bitnami/charts/pull/33850))
+
+## <small>4.8.9 (2025-05-19)</small>
+
+* [bitnami/grafana-loki] dataDir value substitution instead of static config (#33668) ([ba11956](https://github.com/bitnami/charts/commit/ba1195649e2085ed8f410add025b7498f8578c50)), closes [#33668](https://github.com/bitnami/charts/issues/33668)
+
+## <small>4.8.8 (2025-05-13)</small>
+
+* [bitnami/grafana-loki] :zap: :arrow_up: Update dependency references (#33632) ([3d2c31e](https://github.com/bitnami/charts/commit/3d2c31e50c1c140229b33cb7f43834f1b3ded3a7)), closes [#33632](https://github.com/bitnami/charts/issues/33632)
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+
+## <small>4.8.7 (2025-05-07)</small>
+
+* [bitnami/grafana-loki] Release 4.8.7 (#33476) ([226fdbc](https://github.com/bitnami/charts/commit/226fdbcdaa03b1ad0a03eca9dfeff5177e20d432)), closes [#33476](https://github.com/bitnami/charts/issues/33476)
+
+## <small>4.8.6 (2025-05-06)</small>
+
+* [bitnami/grafana-loki] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references (# ([e2d7ad4](https://github.com/bitnami/charts/commit/e2d7ad49b2ab3ea1d1ed85d8fdae1e8492216308)), closes [#33368](https://github.com/bitnami/charts/issues/33368)
+
+## <small>4.8.5 (2025-04-30)</small>
+
+* [bitnami/grafana-loki] add /otlp/v1/logs as gateway-endpoint for distributor via gateway (#33190) ([130ffd1](https://github.com/bitnami/charts/commit/130ffd163382dffd5762034291203a3ac2792fba)), closes [#33190](https://github.com/bitnami/charts/issues/33190)
+
+## <small>4.8.4 (2025-04-28)</small>
+
+* [bitnami/grafana-loki] Release 4.8.4 (#33208) ([25336fa](https://github.com/bitnami/charts/commit/25336fa2c1a002fd7dc483f726d59bf1d416cae3)), closes [#33208](https://github.com/bitnami/charts/issues/33208)
 
 ## <small>4.8.3 (2025-04-25)</small>
 
