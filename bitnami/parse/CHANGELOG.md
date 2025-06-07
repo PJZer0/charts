@@ -1,8 +1,25 @@
 # Changelog
 
-## 25.1.2 (2025-04-28)
+## 25.1.6 (2025-06-01)
 
-* [bitnami/parse] Release 25.1.2 ([#33213](https://github.com/bitnami/charts/pull/33213))
+* [bitnami/parse] :zap: :arrow_up: Update dependency references ([#34026](https://github.com/bitnami/charts/pull/34026))
+
+## <small>25.1.5 (2025-05-15)</small>
+
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+* [bitnami/parse] :zap: :arrow_up: Update dependency references (#33568) ([ed82cb6](https://github.com/bitnami/charts/commit/ed82cb692a590396ca28eaf235141196e6ccd08f)), closes [#33568](https://github.com/bitnami/charts/issues/33568)
+
+## <small>25.1.4 (2025-05-06)</small>
+
+* [bitnami/parse] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references (#33419) ([188a39d](https://github.com/bitnami/charts/commit/188a39d8630bf05e17d4d7ad24aa347680090f4b)), closes [#33419](https://github.com/bitnami/charts/issues/33419)
+
+## <small>25.1.3 (2025-05-01)</small>
+
+* [bitnami/parse] Release 25.1.3 (#33280) ([23c378a](https://github.com/bitnami/charts/commit/23c378a148067ae0f4bbe5a519966d78ef26d425)), closes [#33280](https://github.com/bitnami/charts/issues/33280)
+
+## <small>25.1.2 (2025-04-28)</small>
+
+* [bitnami/parse] Release 25.1.2 (#33213) ([c1f51d6](https://github.com/bitnami/charts/commit/c1f51d65c87430b62caab99531e8c0928bcc2634)), closes [#33213](https://github.com/bitnami/charts/issues/33213)
 
 ## <small>25.1.1 (2025-04-09)</small>
 
