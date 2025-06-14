@@ -1,8 +1,33 @@
 # Changelog
 
-## 24.2.3 (2025-04-23)
+## 24.2.9 (2025-06-09)
 
-* [bitnami/wordpress] Release 24.2.3 ([#33041](https://github.com/bitnami/charts/pull/33041))
+* [bitnami/wordpress] :zap: :arrow_up: Update dependency references ([#34261](https://github.com/bitnami/charts/pull/34261))
+
+## <small>24.2.8 (2025-06-05)</small>
+
+* [bitnami/wordpress] :zap: :arrow_up: Update dependency references (#34133) ([aeaa095](https://github.com/bitnami/charts/commit/aeaa09523131d1e8557faeb3d25f0c67ba469a98)), closes [#34133](https://github.com/bitnami/charts/issues/34133)
+
+## <small>24.2.7 (2025-05-29)</small>
+
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+* [bitnami/wordpress] :zap: :arrow_up: Update dependency references (#33976) ([bdc91f6](https://github.com/bitnami/charts/commit/bdc91f6f7934e6d01c754a81c06abd0f8d82a05c)), closes [#33976](https://github.com/bitnami/charts/issues/33976)
+
+## <small>24.2.6 (2025-05-08)</small>
+
+* [bitnami/wordpress] :zap: :arrow_up: Update dependency references (#33556) ([69c79f3](https://github.com/bitnami/charts/commit/69c79f39b0852eb690a91cf960eaaaef8dfffa29)), closes [#33556](https://github.com/bitnami/charts/issues/33556)
+
+## <small>24.2.5 (2025-05-06)</small>
+
+* [bitnami/wordpress] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references (#334 ([2c523ed](https://github.com/bitnami/charts/commit/2c523ed14d02778383a5727c557cfda22e670808)), closes [#33449](https://github.com/bitnami/charts/issues/33449)
+
+## <small>24.2.4 (2025-04-30)</small>
+
+* [bitnami/wordpress] Release 24.2.4 (#33275) ([91e8cda](https://github.com/bitnami/charts/commit/91e8cda781e3c04f9692cb0e76e2dc76c28e352c)), closes [#33275](https://github.com/bitnami/charts/issues/33275)
+
+## <small>24.2.3 (2025-04-23)</small>
+
+* [bitnami/wordpress] Release 24.2.3 (#33041) ([c0c23ae](https://github.com/bitnami/charts/commit/c0c23ae555f97fc416e7563c85aa76cae5a328f9)), closes [#33041](https://github.com/bitnami/charts/issues/33041)
 
 ## <small>24.2.2 (2025-04-09)</small>
 

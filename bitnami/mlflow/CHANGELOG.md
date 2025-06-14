@@ -1,8 +1,53 @@
 # Changelog
 
-## 3.0.2 (2025-04-24)
+## 4.0.5 (2025-06-13)
 
-* [bitnami/mlflow] Release 3.0.2 ([#33164](https://github.com/bitnami/charts/pull/33164))
+* [bitnami/mlflow] :zap: :arrow_up: Update dependency references ([#34434](https://github.com/bitnami/charts/pull/34434))
+
+## <small>4.0.4 (2025-06-09)</small>
+
+* [bitnami/mlflow] :zap: :arrow_up: Update dependency references (#34283) ([e6a33ef](https://github.com/bitnami/charts/commit/e6a33ef93fd3edac6b976b9815a3681adefba9f7)), closes [#34283](https://github.com/bitnami/charts/issues/34283)
+
+## <small>4.0.3 (2025-06-09)</small>
+
+* [bitnami/mlflow] :zap: :arrow_up: Update dependency references (#34281) ([a0911b3](https://github.com/bitnami/charts/commit/a0911b33c408592838da992d5b4668fb81c8c1de)), closes [#34281](https://github.com/bitnami/charts/issues/34281)
+
+## <small>4.0.2 (2025-06-09)</small>
+
+* [bitnami/mlflow] Disable MinIO Console (#34268) ([0c2c1ad](https://github.com/bitnami/charts/commit/0c2c1ad68eda6214fe89b8975d6b8c7285fe7c83)), closes [#34268](https://github.com/bitnami/charts/issues/34268)
+
+## <small>4.0.1 (2025-06-06)</small>
+
+* [bitnami/mlflow] :zap: :arrow_up: Update dependency references (#34161) ([6cf7e89](https://github.com/bitnami/charts/commit/6cf7e89b33452be31a7774dca9ceaaed238e92a7)), closes [#34161](https://github.com/bitnami/charts/issues/34161)
+
+## 4.0.0 (2025-06-04)
+
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+* [bitnami/mlflow] feat: major version due to Minio major bump (#34090) ([095fda8](https://github.com/bitnami/charts/commit/095fda8c1d4adee4f6fdeccef26975dd6aefb332)), closes [#34090](https://github.com/bitnami/charts/issues/34090)
+
+## <small>3.0.7 (2025-05-08)</small>
+
+* [bitnami/mlflow] :zap: :arrow_up: Update dependency references (#33557) ([4811de9](https://github.com/bitnami/charts/commit/4811de95c73f55338b0211b7ba9707906ff5faca)), closes [#33557](https://github.com/bitnami/charts/issues/33557)
+
+## <small>3.0.6 (2025-05-06)</small>
+
+* [bitnami/mlflow] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references (#33404) ([205d1e8](https://github.com/bitnami/charts/commit/205d1e8f33a1b5a71f4a69bc17f84271a6817d49)), closes [#33404](https://github.com/bitnami/charts/issues/33404)
+
+## <small>3.0.5 (2025-05-02)</small>
+
+* [bitnami/mlflow] Release 3.0.5 (#33309) ([dbb7a86](https://github.com/bitnami/charts/commit/dbb7a86bddd464ff476173a8c9f55bebd9c70db9)), closes [#33309](https://github.com/bitnami/charts/issues/33309)
+
+## <small>3.0.4 (2025-05-02)</small>
+
+* [bitnami/mlflow] Release 3.0.4 (#33306) ([53bbbf2](https://github.com/bitnami/charts/commit/53bbbf2307f338fd3fe4d7929a3db78b35f5c494)), closes [#33306](https://github.com/bitnami/charts/issues/33306)
+
+## <small>3.0.3 (2025-04-29)</small>
+
+* Fix syntax (parameter order) for flaskServerSecretKey in template (#33248) ([5397041](https://github.com/bitnami/charts/commit/5397041481d28c64eb3ff5db6d3bc81441436236)), closes [#33248](https://github.com/bitnami/charts/issues/33248)
+
+## <small>3.0.2 (2025-04-24)</small>
+
+* [bitnami/mlflow] Release 3.0.2 (#33164) ([c4882c1](https://github.com/bitnami/charts/commit/c4882c117384e928e47c50113acc3c52511153c0)), closes [#33164](https://github.com/bitnami/charts/issues/33164)
 
 ## <small>3.0.1 (2025-04-09)</small>
 

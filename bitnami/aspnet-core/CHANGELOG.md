@@ -1,8 +1,37 @@
 # Changelog
 
-## 6.3.8 (2025-04-09)
+## 7.0.6 (2025-06-11)
 
-* [bitnami/aspnet-core] Release 6.3.8 ([#32925](https://github.com/bitnami/charts/pull/32925))
+* [bitnami/aspnet-core] :zap: :arrow_up: Update dependency references ([#34324](https://github.com/bitnami/charts/pull/34324))
+
+## <small>7.0.5 (2025-06-06)</small>
+
+* [bitnami/aspnet-core] :zap: :arrow_up: Update dependency references (#34159) ([3d3a4a3](https://github.com/bitnami/charts/commit/3d3a4a3dabd0181f9fd71eb6e2266fb9ec634dc2)), closes [#34159](https://github.com/bitnami/charts/issues/34159)
+
+## <small>7.0.4 (2025-05-13)</small>
+
+* [bitnami/aspnet-core] :zap: :arrow_up: Update dependency references (#33682) ([16b2577](https://github.com/bitnami/charts/commit/16b25774b6cccbd92f7faafb249b3ab601628016)), closes [#33682](https://github.com/bitnami/charts/issues/33682)
+
+## <small>7.0.3 (2025-05-09)</small>
+
+* [bitnami/aspnet-core] :zap: :arrow_up: Update dependency references (#33591) ([28f779d](https://github.com/bitnami/charts/commit/28f779d47fd7d9c0eaabe1a38b45b163ef20f7a9)), closes [#33591](https://github.com/bitnami/charts/issues/33591)
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+
+## <small>7.0.2 (2025-05-06)</small>
+
+* [bitnami/aspnet-core] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references (#3 ([9477aac](https://github.com/bitnami/charts/commit/9477aac5cb8dc0be6fe7fab10a78cc953dc92fa5)), closes [#33339](https://github.com/bitnami/charts/issues/33339)
+
+## <small>7.0.1 (2025-04-30)</small>
+
+* [bitnami/aspnet-core] Release 7.0.1 (#33274) ([c5b6ee8](https://github.com/bitnami/charts/commit/c5b6ee87419e3eee26eab38c37bd5bb84df36c98)), closes [#33274](https://github.com/bitnami/charts/issues/33274)
+
+## 7.0.0 (2025-04-30)
+
+* [bitnami/aspnet-core] Release 7.0.0 (#33266) ([ee7edfe](https://github.com/bitnami/charts/commit/ee7edfeb563ca02927b3878f9dad96c468992b17)), closes [#33266](https://github.com/bitnami/charts/issues/33266)
+
+## <small>6.3.8 (2025-04-09)</small>
+
+* [bitnami/aspnet-core] Release 6.3.8 (#32925) ([cb28cd2](https://github.com/bitnami/charts/commit/cb28cd23289d76cfb853f96fb20b796268dd202d)), closes [#32925](https://github.com/bitnami/charts/issues/32925)
 
 ## <small>6.3.7 (2025-04-09)</small>
 

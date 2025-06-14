@@ -1,8 +1,21 @@
 # Changelog
 
-## 1.4.2 (2025-04-25)
+## 1.4.5 (2025-06-10)
 
-* [bitnami/janusgraph] Release 1.4.2 ([#33174](https://github.com/bitnami/charts/pull/33174))
+* [bitnami/janusgraph] :zap: :arrow_up: Update dependency references ([#34300](https://github.com/bitnami/charts/pull/34300))
+
+## <small>1.4.4 (2025-05-16)</small>
+
+* [bitnami/janusgraph] :zap: :arrow_up: Update dependency references (#33759) ([c1a055e](https://github.com/bitnami/charts/commit/c1a055ed9260656305f42c2a6f8730b39b23adac)), closes [#33759](https://github.com/bitnami/charts/issues/33759)
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+
+## <small>1.4.3 (2025-05-06)</small>
+
+* [bitnami/janusgraph] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references (#33 ([13c6491](https://github.com/bitnami/charts/commit/13c649109e42ad575c7fbe7f52b02e48fd52c123)), closes [#33376](https://github.com/bitnami/charts/issues/33376)
+
+## <small>1.4.2 (2025-04-25)</small>
+
+* [bitnami/janusgraph] Release 1.4.2 (#33174) ([1113c4d](https://github.com/bitnami/charts/commit/1113c4d507d6ce746fe5f773cdd1c7559be359fe)), closes [#33174](https://github.com/bitnami/charts/issues/33174)
 
 ## <small>1.4.1 (2025-03-26)</small>
 

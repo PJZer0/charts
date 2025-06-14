@@ -1,8 +1,29 @@
 # Changelog
 
-## 4.5.10 (2025-04-02)
+## 4.5.15 (2025-06-11)
 
-* [bitnami/node-exporter] Release 4.5.10 ([#32756](https://github.com/bitnami/charts/pull/32756))
+* [bitnami/node-exporter] :zap: :arrow_up: Update dependency references ([#34320](https://github.com/bitnami/charts/pull/34320))
+
+## <small>4.5.14 (2025-06-06)</small>
+
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+* [bitnami/node-exporter] :zap: :arrow_up: Update dependency references (#34207) ([1e50698](https://github.com/bitnami/charts/commit/1e506985f75204fb74ae296d169fbee8ec9130b5)), closes [#34207](https://github.com/bitnami/charts/issues/34207)
+
+## <small>4.5.13 (2025-05-07)</small>
+
+* [bitnami/node-exporter] Release 4.5.13 (#33537) ([e87800e](https://github.com/bitnami/charts/commit/e87800e981a8165062883fa8b115d4a8d9f7381a)), closes [#33537](https://github.com/bitnami/charts/issues/33537)
+
+## <small>4.5.12 (2025-05-06)</small>
+
+* [bitnami/node-exporter] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references ( ([11acc98](https://github.com/bitnami/charts/commit/11acc98ce0f6d57c6c7f0a4386f3ae345ef2336b)), closes [#33415](https://github.com/bitnami/charts/issues/33415)
+
+## <small>4.5.11 (2025-05-02)</small>
+
+* [bitnami/node-exporter] Release 4.5.11 (#33299) ([2818119](https://github.com/bitnami/charts/commit/28181193f440e0bf2debbd7cc3e6ebd4972b4479)), closes [#33299](https://github.com/bitnami/charts/issues/33299)
+
+## <small>4.5.10 (2025-04-02)</small>
+
+* [bitnami/node-exporter] Release 4.5.10 (#32756) ([9508cb4](https://github.com/bitnami/charts/commit/9508cb48d7587b215ba84d08acc992fa042ce942)), closes [#32756](https://github.com/bitnami/charts/issues/32756)
 
 ## <small>4.5.9 (2025-04-01)</small>
 

@@ -1,8 +1,33 @@
 # Changelog
 
-## 20.5.3 (2025-04-24)
+## 20.5.9 (2025-06-13)
 
-* adds spec.terminationGracePeriodSeconds to mariadb ([#33168](https://github.com/bitnami/charts/pull/33168))
+* [bitnami/mariadb] :zap: :arrow_up: Update dependency references ([#34473](https://github.com/bitnami/charts/pull/34473))
+
+## <small>20.5.8 (2025-06-11)</small>
+
+* [bitnami/mariadb] :zap: :arrow_up: Update dependency references (#34336) ([cd273c8](https://github.com/bitnami/charts/commit/cd273c807587629b0d3fa91037f8f4628e698373)), closes [#34336](https://github.com/bitnami/charts/issues/34336)
+
+## <small>20.5.7 (2025-06-06)</small>
+
+* [bitnami/mariadb] :zap: :arrow_up: Update dependency references (#34201) ([583943d](https://github.com/bitnami/charts/commit/583943db330516f16eedac662d0e02456227a8ea)), closes [#34201](https://github.com/bitnami/charts/issues/34201)
+
+## <small>20.5.6 (2025-05-23)</small>
+
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+* [bitnami/mariadb] :zap: :arrow_up: Update dependency references (#33856) ([1af172a](https://github.com/bitnami/charts/commit/1af172a29a83ee96dd03e7eb602153b3a1d1e4a0)), closes [#33856](https://github.com/bitnami/charts/issues/33856)
+
+## <small>20.5.5 (2025-05-08)</small>
+
+* [bitnami/mariadb] :zap: :arrow_up: Update dependency references (#33554) ([018ee9e](https://github.com/bitnami/charts/commit/018ee9e25e0c04583b882e756287b514679e6959)), closes [#33554](https://github.com/bitnami/charts/issues/33554)
+
+## <small>20.5.4 (2025-05-06)</small>
+
+* [bitnami/mariadb] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references (#33393 ([a6d3726](https://github.com/bitnami/charts/commit/a6d3726e5b1fd7dc33b3db2aa0447da676e72727)), closes [#33393](https://github.com/bitnami/charts/issues/33393)
+
+## <small>20.5.3 (2025-04-25)</small>
+
+* [bitnami/mariadb] adds spec.terminationGracePeriodSeconds to mariadb (#33168) ([22790f0](https://github.com/bitnami/charts/commit/22790f0378d4baa0362b69ba1e011c2a045aabbc)), closes [#33168](https://github.com/bitnami/charts/issues/33168)
 
 ## <small>20.4.3 (2025-04-20)</small>
 

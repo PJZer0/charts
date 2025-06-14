@@ -1,8 +1,25 @@
 # Changelog
 
-## 2.5.10 (2025-04-24)
+## 2.5.14 (2025-06-12)
 
-* [bitnami/sealed-secrets] Release 2.5.10 ([#33153](https://github.com/bitnami/charts/pull/33153))
+* [bitnami/sealed-secrets] :zap: :arrow_up: Update dependency references ([#34371](https://github.com/bitnami/charts/pull/34371))
+
+## <small>2.5.13 (2025-06-06)</small>
+
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+* [bitnami/sealed-secrets] :zap: :arrow_up: Update dependency references (#34219) ([22645d3](https://github.com/bitnami/charts/commit/22645d3c72b846fc78e75e3376157f3a25e40abd)), closes [#34219](https://github.com/bitnami/charts/issues/34219)
+
+## <small>2.5.12 (2025-05-07)</small>
+
+* [bitnami/sealed-secrets] Release 2.5.12 (#33521) ([0680ad7](https://github.com/bitnami/charts/commit/0680ad793c30949a2547c504cc14f73fcf860a02)), closes [#33521](https://github.com/bitnami/charts/issues/33521)
+
+## <small>2.5.11 (2025-05-06)</small>
+
+* [bitnami/sealed-secrets] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references  ([b55c926](https://github.com/bitnami/charts/commit/b55c926b75b6c0347a9e29713c7c685a4f81de98)), closes [#33433](https://github.com/bitnami/charts/issues/33433)
+
+## <small>2.5.10 (2025-04-24)</small>
+
+* [bitnami/sealed-secrets] Release 2.5.10 (#33153) ([51fc030](https://github.com/bitnami/charts/commit/51fc030d329581bcf37b9069d3488800d5becb29)), closes [#33153](https://github.com/bitnami/charts/issues/33153)
 
 ## <small>2.5.9 (2025-04-02)</small>
 

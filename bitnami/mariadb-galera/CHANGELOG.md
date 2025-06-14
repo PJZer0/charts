@@ -1,8 +1,38 @@
 # Changelog
 
-## 14.2.2 (2025-04-01)
+## 14.2.9 (2025-06-13)
 
-* [bitnami/mariadb-galera] Release 14.2.2 ([#32712](https://github.com/bitnami/charts/pull/32712))
+* [bitnami/mariadb-galera] :zap: :arrow_up: Update dependency references ([#34472](https://github.com/bitnami/charts/pull/34472))
+
+## <small>14.2.8 (2025-06-10)</small>
+
+* [bitnami/mariadb-galera] :zap: :arrow_up: Update dependency references (#34295) ([b27ec9e](https://github.com/bitnami/charts/commit/b27ec9e2f82057f4d7641f077b04350f133413a8)), closes [#34295](https://github.com/bitnami/charts/issues/34295)
+
+## <small>14.2.7 (2025-06-06)</small>
+
+* [bitnami/mariadb-galera] :zap: :arrow_up: Update dependency references (#34199) ([65afab0](https://github.com/bitnami/charts/commit/65afab04a7030adf35f3a723b9267c82e904d0dc)), closes [#34199](https://github.com/bitnami/charts/issues/34199)
+
+## <small>14.2.6 (2025-05-23)</small>
+
+* [bitnami/mariadb-galera] :zap: :arrow_up: Update dependency references (#33855) ([076c26e](https://github.com/bitnami/charts/commit/076c26e9489bbb2460da1462fb12529f12f41d68)), closes [#33855](https://github.com/bitnami/charts/issues/33855)
+
+## <small>14.2.5 (2025-05-14)</small>
+
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+* [bitnami/mariadb-galera] Release 14.2.5 (#33553) ([5c50a37](https://github.com/bitnami/charts/commit/5c50a37a3cc3810cbdcd6aa989362c9b88ed6ac1)), closes [#33553](https://github.com/bitnami/charts/issues/33553)
+
+## <small>14.2.4 (2025-05-06)</small>
+
+* [bitnami/mariadb-galera] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references  ([4d78a11](https://github.com/bitnami/charts/commit/4d78a1166ea7bc0cc61cec76feef94fa7c29d4e2)), closes [#33394](https://github.com/bitnami/charts/issues/33394)
+
+## <small>14.2.3 (2025-05-01)</small>
+
+* [bitnami/mariadb-galera] Release 14.2.3 (#33284) ([66b41fa](https://github.com/bitnami/charts/commit/66b41fa1e056bf0b065100045888bffe7c3026d0)), closes [#33284](https://github.com/bitnami/charts/issues/33284)
+
+## <small>14.2.2 (2025-04-01)</small>
+
+* [bitnami/*] Add tanzuCategory annotation (#32409) ([a8fba5c](https://github.com/bitnami/charts/commit/a8fba5cb01f6f4464ca7f69c50b0fbe97d837a95)), closes [#32409](https://github.com/bitnami/charts/issues/32409)
+* [bitnami/mariadb-galera] Release 14.2.2 (#32712) ([325f550](https://github.com/bitnami/charts/commit/325f550908ee29765e2d8b22fcd1aa600d8ae7f0)), closes [#32712](https://github.com/bitnami/charts/issues/32712)
 
 ## <small>14.2.1 (2025-03-02)</small>
 

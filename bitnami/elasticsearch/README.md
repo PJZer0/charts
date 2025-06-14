@@ -20,8 +20,6 @@ Looking to use Elasticsearch in production? Try [VMware Tanzu Application Catalo
 
 This chart bootstraps a [Elasticsearch](https://github.com/bitnami/containers/tree/main/bitnami/elasticsearch) deployment on a [Kubernetes](https://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
 
-Bitnami charts can be used with [Kubeapps](https://kubeapps.dev/) for deployment and management of Helm Charts in clusters.
-
 ## Prerequisites
 
 - Kubernetes 1.23+
@@ -430,6 +428,7 @@ You can enable this initContainer by setting `volumePermissions.enabled` to `tru
 | `master.hostAliases`                                       | master-elegible pods host aliases                                                                                                                                                                                               | `[]`                |
 | `master.podLabels`                                         | Extra labels for master-elegible pods                                                                                                                                                                                           | `{}`                |
 | `master.podAnnotations`                                    | Annotations for master-elegible pods                                                                                                                                                                                            | `{}`                |
+| `master.shareProcessNamespace`                             | Share a single process namespace between all of the containers in pod                                                                                                                                                           | `false`             |
 | `master.podAffinityPreset`                                 | Pod affinity preset. Ignored if `master.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                                      | `""`                |
 | `master.podAntiAffinityPreset`                             | Pod anti-affinity preset. Ignored if `master.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                                 | `""`                |
 | `master.nodeAffinityPreset.type`                           | Node affinity preset type. Ignored if `master.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                                | `""`                |
@@ -538,6 +537,7 @@ You can enable this initContainer by setting `volumePermissions.enabled` to `tru
 | `data.hostAliases`                                       | data pods host aliases                                                                                                                                                                                                      | `[]`                |
 | `data.podLabels`                                         | Extra labels for data pods                                                                                                                                                                                                  | `{}`                |
 | `data.podAnnotations`                                    | Annotations for data pods                                                                                                                                                                                                   | `{}`                |
+| `data.shareProcessNamespace`                             | Share a single process namespace between all of the containers in pod                                                                                                                                                       | `false`             |
 | `data.podAffinityPreset`                                 | Pod affinity preset. Ignored if `data.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                                    | `""`                |
 | `data.podAntiAffinityPreset`                             | Pod anti-affinity preset. Ignored if `data.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                               | `""`                |
 | `data.nodeAffinityPreset.type`                           | Node affinity preset type. Ignored if `data.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                              | `""`                |
@@ -646,6 +646,7 @@ You can enable this initContainer by setting `volumePermissions.enabled` to `tru
 | `coordinating.hostAliases`                                       | coordinating-only pods host aliases                                                                                                                                                                                                         | `[]`             |
 | `coordinating.podLabels`                                         | Extra labels for coordinating-only pods                                                                                                                                                                                                     | `{}`             |
 | `coordinating.podAnnotations`                                    | Annotations for coordinating-only pods                                                                                                                                                                                                      | `{}`             |
+| `coordinating.shareProcessNamespace`                             | Share a single process namespace between all of the containers in pod                                                                                                                                                                       | `false`          |
 | `coordinating.podAffinityPreset`                                 | Pod affinity preset. Ignored if `coordinating.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                                            | `""`             |
 | `coordinating.podAntiAffinityPreset`                             | Pod anti-affinity preset. Ignored if `coordinating.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                                       | `""`             |
 | `coordinating.nodeAffinityPreset.type`                           | Node affinity preset type. Ignored if `coordinating.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                                      | `""`             |
@@ -746,6 +747,7 @@ You can enable this initContainer by setting `volumePermissions.enabled` to `tru
 | `ingest.hostAliases`                                       | ingest-only pods host aliases                                                                                                                                                                                                   | `[]`                         |
 | `ingest.podLabels`                                         | Extra labels for ingest-only pods                                                                                                                                                                                               | `{}`                         |
 | `ingest.podAnnotations`                                    | Annotations for ingest-only pods                                                                                                                                                                                                | `{}`                         |
+| `ingest.shareProcessNamespace`                             | Share a single process namespace between all of the containers in pod                                                                                                                                                           | `false`                      |
 | `ingest.podAffinityPreset`                                 | Pod affinity preset. Ignored if `ingest.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                                      | `""`                         |
 | `ingest.podAntiAffinityPreset`                             | Pod anti-affinity preset. Ignored if `ingest.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                                 | `""`                         |
 | `ingest.nodeAffinityPreset.type`                           | Node affinity preset type. Ignored if `ingest.affinity` is set. Allowed values: `soft` or `hard`                                                                                                                                | `""`                         |
@@ -995,6 +997,10 @@ helm install my-release -f values.yaml oci://REGISTRY_NAME/REPOSITORY_NAME/elast
 Find more information about how to deal with common errors related to Bitnami's Helm charts in [this troubleshooting guide](https://docs.bitnami.com/general/how-to/troubleshoot-helm-chart-issues).
 
 ## Upgrading
+
+### To 22.0.0
+
+This major version updates the Elasticsearch image and Kibana subchart from version 8.x to 9.x. Follow the [official instructions](https://www.elastic.co/docs/deploy-manage/upgrade/deployment-or-cluster) to upgrade to 9.x.
 
 ### To 21.4.0
 

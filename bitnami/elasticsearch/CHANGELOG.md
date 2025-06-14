@@ -1,8 +1,45 @@
 # Changelog
 
-## 21.6.3 (2025-04-28)
+## 22.0.8 (2025-06-13)
 
-* [bitnami/elasticsearch] Release 21.6.3 ([#33223](https://github.com/bitnami/charts/pull/33223))
+* [bitnami/elasticsearch] :zap: :arrow_up: Update dependency references ([#34421](https://github.com/bitnami/charts/pull/34421))
+
+## <small>22.0.7 (2025-06-11)</small>
+
+* [bitnami/elasticsearch] :zap: :arrow_up: Update dependency references (#34340) ([e6e35bc](https://github.com/bitnami/charts/commit/e6e35bcb3a8c3a8ffcddb8d4cd082572f8307351)), closes [#34340](https://github.com/bitnami/charts/issues/34340)
+
+## <small>22.0.6 (2025-06-05)</small>
+
+* [bitnami/elasticsearch] :zap: :arrow_up: Update dependency references (#34150) ([0c52603](https://github.com/bitnami/charts/commit/0c52603016df402c866a245e7890c2a6f357a34b)), closes [#34150](https://github.com/bitnami/charts/issues/34150)
+
+## <small>22.0.5 (2025-06-03)</small>
+
+* [bitnami/elasticsearch] :zap: :arrow_up: Update dependency references (#34080) ([1438db8](https://github.com/bitnami/charts/commit/1438db8e11f6880e7bcea402c901d72a3841ce89)), closes [#34080](https://github.com/bitnami/charts/issues/34080)
+
+## <small>22.0.4 (2025-05-16)</small>
+
+* [bitnami/elasticsearch] add shareProcessNamespace support (#33232) ([023476f](https://github.com/bitnami/charts/commit/023476f5c0b12cb7527548e8a5a3b1ca985a55e4)), closes [#33232](https://github.com/bitnami/charts/issues/33232)
+* [bitnami/kubeapps] Deprecation followup (#33579) ([77e312c](https://github.com/bitnami/charts/commit/77e312c1772d4d7c4dc5d3ac0e80f4e452e3a062)), closes [#33579](https://github.com/bitnami/charts/issues/33579)
+
+## <small>22.0.3 (2025-05-07)</small>
+
+* [bitnami/elasticsearch] Release 22.0.3 (#33547) ([338e18a](https://github.com/bitnami/charts/commit/338e18a44389a547e16154e0c74abee522a68e77)), closes [#33547](https://github.com/bitnami/charts/issues/33547)
+
+## <small>22.0.2 (2025-05-06)</small>
+
+* [bitnami/elasticsearch] chore: :recycle: :arrow_up: Update common and remove k8s < 1.23 references ( ([97dc9b1](https://github.com/bitnami/charts/commit/97dc9b1af8160f11f01df6d24cf041c22b4f62d3)), closes [#33356](https://github.com/bitnami/charts/issues/33356)
+
+## <small>22.0.1 (2025-04-30)</small>
+
+* [bitnami/elasticsearch] Update kibana subchart (#33256) ([628723c](https://github.com/bitnami/charts/commit/628723c5629d638280f4e69af6ef6bf0e6f3539c)), closes [#33256](https://github.com/bitnami/charts/issues/33256)
+
+## 22.0.0 (2025-04-29)
+
+* [bitnami/elasticsearch] Release 22.0.0 (#33246) ([5ff40ae](https://github.com/bitnami/charts/commit/5ff40ae91813f230cdf1e8b11e9ab5a3a1892417)), closes [#33246](https://github.com/bitnami/charts/issues/33246)
+
+## <small>21.6.3 (2025-04-28)</small>
+
+* [bitnami/elasticsearch] Release 21.6.3 (#33223) ([ea673bf](https://github.com/bitnami/charts/commit/ea673bfa7f91f385512dfa2dba42222fdc5e2210)), closes [#33223](https://github.com/bitnami/charts/issues/33223)
 
 ## <small>21.6.2 (2025-04-22)</small>
 
